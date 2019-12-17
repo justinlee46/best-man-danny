@@ -4,8 +4,30 @@ body {
   text-align: center;
 }
 
+/* Navigation Bar */
+
+.navbar-index {
+  padding: 10 0 4.5rem;
+  margin-bottom: 10rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
 .b-image {
-  background-image: url("../images/cabo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +57,12 @@ body {
 }
 
 .colored-section {
-  background-color: #46b5d1;
+  background-color: #9aceff;
+  color: #fff;
+}
+
+.nav-color {
+  background-color: #617be3;
   color: #fff;
 }
 
@@ -80,8 +107,39 @@ body {
 	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
 	background-color:#1e62d0;
-}.classname:active {
+}
+
+.classname:active {
 	position:relative;
 	top:1px;
 }
-/* This button was generated using CSSButtonGenerator.com */
+
+.cabo {
+  position: absolute;
+}
+
+.img1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  z-index: 2;
+  left: 100px;
+  top: 500px;
+}
+
+.img3 {
+  position: absolute;
+  z-index: 2;
+  left: 1100px;
+  top: 500px;
+}
+
+.img4 {
+  position: absolute;
+  z-index: 2;
+  left: 600px;
+  top: 500px;
+}
