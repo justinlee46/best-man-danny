@@ -26,6 +26,14 @@ body {
   font-family: "Montserrat-Light";
 }
 
+.question {
+  font-family: 'Courgette', cursive;
+  margin-top: 200px;
+}
+
+.story {
+  margin-top: 200px;
+}
 
 .b-image {
   background-repeat: no-repeat;
